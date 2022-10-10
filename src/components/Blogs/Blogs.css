@@ -1,0 +1,18 @@
+.blogs-heading{
+    font-size: 5vmin;
+}
+.blogs-section{
+    width: 50%;
+    margin: auto;
+}
+.blogs-section .blogs{
+    border: 1px solid gray;
+    margin: 30px 0;
+    border-radius: 10px;
+    padding: 20px;
+}
+.blogs-section .blogs h2{
+    margin: 10px auto;
+    width: 50%;
+    border-bottom: 2px solid gray;
+}

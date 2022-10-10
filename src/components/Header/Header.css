@@ -4,13 +4,22 @@
     align-items: center;
     /* width: 90%;
     margin: auto; */
-    padding: 10px 50px;
+    padding: 0px 100px;
     box-shadow: 2px 2px 2px whitesmoke;
+}
+.header h2{
+    font-size: 4vmin;
 }
 .nav-bar a{
     text-decoration: none;
-    margin-left: 15px;
+    margin-left: 50px;
 }
 .nav-bar a:hover{
     color: tomato;
+}
+.sub-header{
+    border: 1px solid gray;
+    width: 90%;
+    margin: 20px auto;
+    border-radius: 10px;
 }

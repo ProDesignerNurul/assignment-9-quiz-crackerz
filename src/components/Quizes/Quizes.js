@@ -9,7 +9,6 @@ const Quizes = () => {
     console.log(quizes)
     return (
         <div>
-            <h2>This is Quizes Page {quizes.length}</h2>
             <div className="quizes">
                 {
                     quizes.data.map(quiz => <Quiz
