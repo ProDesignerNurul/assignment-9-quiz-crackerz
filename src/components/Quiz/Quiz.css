@@ -1,0 +1,34 @@
+.quiz{
+    box-shadow: 4px 4px 10px lightgray;
+    border-radius: 10px;
+    padding: 15px;
+}
+.quiz button{
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(240, 116, 58);
+    font-size: 2vmin;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+.quiz button:hover{
+    background-color: rgb(254, 38, 0);
+    color: white;
+}
+.quiz h2{
+    font-size: 6vmin;
+    margin: 25px;
+}
+.quiz img{
+    width: 100%;
+}
+
+/* animaton design  */
+img {
+    transition: transform 0.3s ease;
+}
+img:hover{
+    transform: scale(1.1);
+}

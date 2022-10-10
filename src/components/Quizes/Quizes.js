@@ -1,13 +1,23 @@
 import React from 'react';
-import { useRouteLoaderData } from 'react-router-dom';
+import { useLoaderData } from 'react-router-dom';
 import Quiz from '../Quiz/Quiz';
+import './Quizes.css';
+
 
 const Quizes = () => {
-    const quizes = useRouteLoaderData();
+    const quizes = useLoaderData();
+    console.log(quizes)
     return (
         <div>
-            <h2>This is Quizes Page</h2>
-            
+            <h2>This is Quizes Page {quizes.length}</h2>
+            <div className="quizes">
+                {
+                    quizes.data.map(quiz => <Quiz
+                        key={quiz.id}
+                        quiz={quiz}
+                    ></Quiz>)
+                }
+            </div>
         </div>
     );
 };
