@@ -1,13 +1,19 @@
 import React from 'react';
+import Answer from '../Answer/Answer';
 import './QuizQuestions.css';
 
-const QuizQuestions = ({quizQuestion}) => {
+const QuizQuestions = ({ quizQuestion }) => {
     console.log(quizQuestion)
-    const {question, options} = quizQuestion;
+    const { question, options } = quizQuestion;
     return (
         <div className='question-section'>
-            <h2>Questions : {question}</h2>
-            <h3 className='answore'>Answore : {options}</h3>
+            <h2>{question}</h2>
+            {
+                options.map((option, idx) => <Answer
+                key={idx}
+                option={option}
+                ></Answer>)
+            }
         </div>
     );
 };
