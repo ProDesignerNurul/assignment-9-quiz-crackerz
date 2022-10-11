@@ -1,6 +1,6 @@
 .quiz{
-    background-color: rgb(237, 237, 237);
-    box-shadow: 5px 5px 5px lightgray;
+    /* background-color: rgb(237, 237, 237); */
+    box-shadow: 2px 2px 7px lightgray;
     border-radius: 10px;
     padding: 15px;
 }
@@ -26,6 +26,8 @@
 }
 .quiz img{
     width: 100%;
+    background-color: rgb(218, 208, 11);
+    border-radius: 10px;
 }
 
 /* animaton design  */

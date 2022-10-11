@@ -2,6 +2,9 @@
     border: 1px solid gray;
     padding: 10px;
     border-radius: 5px;
+    background-color: #faebd7;
+    margin: 50px 0;
+    box-shadow: 2px 2px 4px gray;
 }
 .answore{
     border: 1px solid gray;

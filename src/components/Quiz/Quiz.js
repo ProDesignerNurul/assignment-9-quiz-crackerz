@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import './Quiz.css';
 
+
 const Quiz = ({quiz}) => {
     const {id, name, logo} = quiz;
     return (
