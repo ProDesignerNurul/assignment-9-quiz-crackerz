@@ -1,10 +1,13 @@
 import React from 'react';
+import './Answer.css';
 
-const Answer = ({option}) => {
+const Answer = ({ option }) => {
     console.log(option)
     return (
-        <div>
-            <h2><input type="radio" name=""  id="" /> {option}</h2>
+        <div className='border rounded p-1 m-2 bg-secondary text-white'>
+            <h2> <label htmlFor="">
+                <input type="radio" name="answer" id="" value={option} /> {option}
+            </label></h2>
         </div>
     );
 };
