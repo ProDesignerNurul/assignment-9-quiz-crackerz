@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { toast } from 'react-toastify';
 import Answer from '../Answer/Answer';
 import './QuizQuestions.css';
+// import { EyeIcon, EyeSlashIcon } from '@heroicons/react/24/solid'
 
 const QuizQuestions = ({ quizQuestion }) => {
     const [open, setOpen] = useState(true);
@@ -20,9 +21,16 @@ const QuizQuestions = ({ quizQuestion }) => {
 
     return (
         <div>
-            <div>
-
+            {/* <div onClick={() => setOpen(!open)} className='h-6 w-6 text-black' >
+                {open ? <EyeIcon /> : <EyeSlashIcon></EyeSlashIcon>}
             </div>
+            <div className={open ? 'hidden' : 'block'}>
+                <h1 className='text-xl py-2 bg-white px-2 rounded-sm my-5'>
+                    <span className='text-red-500 text-2xl'>Correct Ans : </span>
+                    {correctAnswer}
+                </h1>
+
+            </div> */}
             <div className='question-section'>
                 <h2>{question}</h2>
                 {

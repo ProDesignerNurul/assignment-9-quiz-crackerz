@@ -10,6 +10,12 @@
 
 
 /* responsive design  */
+@media screen and (min-width: 851px) and (max-width: 1000px) {
+    .quizes{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+}
 
 @media screen and (max-width: 850px) {
     .quizes{

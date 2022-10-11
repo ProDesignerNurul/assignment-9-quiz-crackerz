@@ -37,3 +37,13 @@ img {
 img:hover{
     transform: scale(1.1);
 }
+
+
+
+
+
+/* mobile responsive  */
+@media screen and (max-width: 850px) {
+    
+    
+}
