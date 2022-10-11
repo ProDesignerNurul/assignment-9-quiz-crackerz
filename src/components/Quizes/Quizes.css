@@ -5,3 +5,15 @@
     width: 90%;
     margin: auto;
 }
+
+
+
+
+/* responsive design  */
+
+@media screen and (max-width: 850px) {
+    .quizes{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+}

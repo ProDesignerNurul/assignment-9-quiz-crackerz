@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './Header.css';
+import headImageOne from '../../images/headImageOne.jpg';
 
 const Header = () => {
     return (
@@ -16,8 +17,13 @@ const Header = () => {
                 </div>
             </div>
             <div className='sub-header'>
-                <h1>Bangladesh</h1>
-                <h2>All-Time Showing This Text</h2>
+                <div>
+                    <img src={headImageOne} alt="" />
+                </div>
+                <div className='sub-header-info'>
+                    <h1>Welcome To Our Quiz Website</h1>
+                    <h4>Hi Thare!!! it's a Quiz Releted Website, Do You Like Quizes? If Yes, Please Visit This Website and Prectice Some Quizes!!! Thank You!!!</h4>
+                </div>
             </div>
         </div>
     );

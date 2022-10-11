@@ -16,3 +16,15 @@
     width: 50%;
     border-bottom: 2px solid gray;
 }
+
+/* responsive design  */
+
+@media screen and (max-width: 850px) {
+    .blogs-section{
+        width: 90%;
+    }
+    .blogs-section .blogs h2{
+        width: 70%;
+    }
+    
+}

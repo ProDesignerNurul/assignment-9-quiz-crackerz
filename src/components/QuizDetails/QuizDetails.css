@@ -1,5 +1,13 @@
 .quiz-details{
     width: 60%;
-    
     margin: 20px auto;
+}
+
+/* responsive design  */
+
+@media screen and (max-width: 850px) {
+    .quiz-details{
+        width: 90%;
+    }
+    
 }

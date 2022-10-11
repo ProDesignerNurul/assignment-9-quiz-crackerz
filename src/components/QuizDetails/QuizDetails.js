@@ -10,7 +10,7 @@ const QuizDetails = () => {
     console.log(quizDetails.data.questions[1].options)
     return (
         <div>
-            <h2> Question : </h2>
+            <h2>Start Your Question Quiz Prectice</h2>
             <div className='quiz-details'>
                 {
                     quizDetails.data.questions.map(quizQuestion => <QuizQuestions

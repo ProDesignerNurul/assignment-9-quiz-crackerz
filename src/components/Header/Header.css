@@ -23,4 +23,36 @@
     width: 90%;
     margin: 20px auto;
     border-radius: 10px;
+    display: flex;
+    padding: 20px;
+    align-items: center;
+}
+.sub-header img{
+    width: 300px;
+}
+.sub-header-info{
+    padding: 0px 100px;
+}
+
+
+/* responsive design  */
+
+@media screen and (max-width: 850px) {
+    .header{
+        padding: 0 30px;
+    }
+    .nav-bar a{
+        font-size: 15px;
+        margin-left: 20px;
+    }
+    .sub-header{
+        display: block;
+    }
+    .sub-header-info{
+        width: 90%;
+        padding: 10px;
+        text-align: center;
+    }
+    
+    
 }
