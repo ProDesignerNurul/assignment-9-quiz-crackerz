@@ -4,6 +4,9 @@ This is A Quiz Releted Website, and make it, and Provide The Live Link Below, Ch
 2. Added A Question Page!
 3. Added A Blog Page!
 4. Added A Header, and it's Show All-Time in Any of Page!
+5. Added Some Dynamic Data and Dynamically Use it in This Website!
+
+
 
 1. Website Live Link : 
 
