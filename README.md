@@ -6,12 +6,19 @@ This is A Quiz Releted Website, and make it, and Provide The Live Link Below, Ch
 4. Added A Header, and it's Show All-Time in Any of Page!
 5. Added Some Dynamic Data and Dynamically Use it in This Website!
 
+>>> Website Live Link : https://genuine-sawine-acfce4.netlify.app
+
+>>> Url of This Project : https://openapi.programming-hero.com/api/quiz
 
 
-1. Website Live Link : 
 
 
-2. Url of This Project :
+
+
+
+
+
+
 
 
 
