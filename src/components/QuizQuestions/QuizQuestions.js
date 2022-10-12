@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { toast } from 'react-toastify';
 import Answer from '../Answer/Answer';
 import './QuizQuestions.css';
-// import { EyeIcon, EyeSlashIcon } from '@heroicons/react/24/solid'
+import { EyeIcon, EyeSlashIcon } from '@heroicons/react/24/solid'
 
 const QuizQuestions = ({ quizQuestion }) => {
     const [open, setOpen] = useState(true);
@@ -20,18 +20,18 @@ const QuizQuestions = ({ quizQuestion }) => {
 
 
     return (
-        <div>
-            {/* <div onClick={() => setOpen(!open)} className='h-6 w-6 text-black' >
-                {open ? <EyeIcon /> : <EyeSlashIcon></EyeSlashIcon>}
-            </div>
-            <div className={open ? 'hidden' : 'block'}>
-                <h1 className='text-xl py-2 bg-white px-2 rounded-sm my-5'>
-                    <span className='text-red-500 text-2xl'>Correct Ans : </span>
-                    {correctAnswer}
-                </h1>
+        <div className='question-section'>
+            <div>
+                <div onClick={() => setOpen(!open)} className='h-1 w-1 text-black correct-icon' >
+                    {open ? <EyeIcon /> : <EyeSlashIcon></EyeSlashIcon>}
+                </div>
+                <div className={open ? 'hidden' : 'block'}>
+                    <h1 className='text-xl py-2 bg-white px-2 rounded-sm my-5'>
+                        <span className='text-red-500 text-2xl'>Correct Ans : </span>
+                        {correctAnswer}
+                    </h1>
 
-            </div> */}
-            <div className='question-section'>
+                </div>
                 <h2>{question}</h2>
                 {
                     options.map((option, idx) => <Answer
