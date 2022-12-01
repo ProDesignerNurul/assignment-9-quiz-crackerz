@@ -33,6 +33,7 @@ const QuizQuestions = ({ quizQuestion }) => {
 
                 </div>
                 <h2>{question}</h2>
+                {/* maping  */}
                 {
                     options.map((option, idx) => <Answer
                         key={idx}
